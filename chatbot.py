@@ -8,7 +8,7 @@ def get_chatbot():
     # Replace with the actual model ID if different
     llm = Bedrock(
         client=client,
-        model_id="meta.llama3-90b-instruct-v1",  # Check Bedrock console for exact ID
+        model_id="meta.llama3-3-70b-instruct-v1:0",  # Check Bedrock console for exact ID
         model_kwargs={
             "temperature": 0.7,
             "top_p": 0.9
