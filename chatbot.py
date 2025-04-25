@@ -1,5 +1,5 @@
 from langchain.llms.bedrock import Bedrock
-from .aws_config import get_bedrock_runtime_client
+from aws_config import get_bedrock_runtime_client
 
 # Initialize the chatbot model
 def get_chatbot():
